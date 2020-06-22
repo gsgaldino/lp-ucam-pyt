@@ -1,0 +1,23 @@
+@media screen and (max-width: 800px){
+  .First__Section {
+    background-image: url('../../../assets/bg.jpg');
+    background-position: center;
+    padding: 120px 60px;
+    text-align: center;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .First__Section h1,
+  .First__Section h3 {
+    color: var(--text-color);
+  }
+
+  .First__Section h1 {
+    font-size: 40px;
+  }
+  
+}

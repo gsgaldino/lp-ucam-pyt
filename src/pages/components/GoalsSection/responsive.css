@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px){
+  .Goals__Section {
+    width: 100%;
+  }
+
+  .Goals__Section .goals {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+  }
+}
