@@ -5,6 +5,10 @@ import FirstSection from '../components/FirstSection';
 import GoalsSection from '../components/GoalsSection';
 import ForWhoContainer from '../components/ForWhoContainer';
 import ModulesSection from '../components/ModulesSection';
+import Teachers from '../components/Teachers';
+import FAQSection from '../components/FAQSection';
+import CTA from '../components/CTA';
+import AlgumaDuvidaSection from '../components/AlgumaDuvidaSection';
 
 export default function PYTHomepage(){
   return (
@@ -14,6 +18,10 @@ export default function PYTHomepage(){
       <GoalsSection />
       <ForWhoContainer />
       <ModulesSection />
+      <Teachers />
+      <FAQSection />
+      <CTA />
+      <AlgumaDuvidaSection />
     </div>
   )
 }

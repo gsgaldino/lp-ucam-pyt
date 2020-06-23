@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px){
+  .Question__Section {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .Question__Section p {
+    font-size: 20px;
+  }
+}

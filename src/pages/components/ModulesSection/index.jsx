@@ -21,37 +21,125 @@ export default function ModulesSection(){
       </div>
 
       <div className="content">
-        <p>I. Introdução a Linguagem
+        <ol>
+          <li><strong>Introdução a Linguagem</strong>
+            <ul>
+              <li>
+                <strong>Curso Python parte 1:</strong>
+                <p>Introdução a nova versão da linguagem</p>
+              </li>
 
-Curso Python parte 1: Introdução a nova versão da linguagem
-Curso Python parte 2: Avançado na linguagem
-Post: Trabalhando com precisão em números decimais no Python
-Curso Python: Introdução a Orientação a objetivos
-Vídeo: A linguagem Python
-Post: Quais as diferenças entre Python 2 e 3
-II.Aprofundamento em detalhes da linguagem
+              <li>
+                <strong>Curso Python parte 2:</strong>
+                <p>Avançando na linguagem</p>
+              </li>
 
-Curso Python: Avançado na orientado a objetos
-Post: Como comparar objetivos no Python?
-Post: Python datetime: Lidando com datas e horários
-Curso Python: Manipulação de StringsCurso Python Collections parte 1: Listas e tuplas
-Curso Python Collections parte 2: Conjuntos e dicionários
-Post: O que são iteradores no Python?
-Post: Trabalhando com dicionários
-Post: Ordenando Listas no Python
+              <li>
+                <strong>Post:</strong>
+                <p>Trabalhando com precisão em números decimais no Python</p>
+              </li>
 
-III. Trabalho com formato de dados
+              <li>
+                <strong>Curso Python:</strong>
+                <p>Introdução a Orientação a Objetos</p>
+              </li>
 
-Curso Python Brasil: Validação de dados no padrão nacional
-Post: Formatação de moeda e internacionalização com Python
-Podcast: Python 
-Post: A diferença das funções input e raw_input no Python
- IV.Testes automatizados
+              <li>
+                <strong>Vídeo: </strong>
+                <p>A linguagem Python</p>
+              </li>
 
-Curso testes automatizados: TDD com Python
+              <li>
+                <strong>Post: </strong>
+                <p>Quais as diferenças entre Python 2 e 3</p>
+              </li>
+            </ul>
+          </li>
 
-Post: Montando cenários de testes com Pytest</p>
-        
+          <li><strong>Aprofundamento em detalhes da linguagem</strong>
+            <ul>
+              <li>
+                <strong>Curso Python:</strong>
+                <p>Avançando na orientado a objetos</p>
+              </li>
+
+              <li>
+                <strong>Post:</strong>
+                <p>Como comparar objetos no Python?</p>
+              </li>
+
+              <li>
+                <strong>Post:</strong>
+                <p>Python datetime: Lidando com datas e horários</p>
+              </li>
+
+              <li>
+                <strong>Curso Python: </strong>
+                <p>Manipulação de Strings</p>
+              </li>
+
+              <li>
+                <strong>Curso Python Collections parte 1:</strong>
+                <p>Listas e tuplas</p>
+              </li>
+
+              <li>
+                <strong>Curso Python Collections parte 2:</strong>
+                <p>Conjuntos e dicionários</p>
+              </li>
+
+              <li>
+                <strong>Post:</strong>
+                <p>O que são iteradores no Python?</p>
+              </li>
+              
+              <li>
+                <strong>Post:</strong>
+                <p>Trabalhando com dicionários</p>
+              </li>
+
+              <li>
+                <strong>Post:</strong>
+                <p>Ordenando Listas no Python</p>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <strong>Trabalho com formato de dados</strong>
+            <ul>
+              <li>
+                <strong>Curso Python:</strong>
+                <p>Validação de dados no padrão nacional</p>
+              </li>
+
+              <li>
+                <strong>Post:</strong>
+                <p>Formatação de moeda e internacionalização com Python</p>
+              </li>
+
+              <li>
+                <strong>Podcast:</strong>
+                <p>Python</p>
+              </li>
+
+              <li>
+                <strong>Post:</strong>
+                <p>A diferença das funções input e raw_input no Python IV.Testes automatizados</p>
+              </li>
+
+              <li>
+                <strong>Curso testes automatizados:</strong>
+                <p>TDD com Python</p>
+              </li>
+
+              <li>
+                <strong>Post: </strong>
+                <p>Montando cenários de testes com Pytest</p>
+              </li>
+            </ul>
+          </li>
+        </ol>
       </div>
     </div>
   )
