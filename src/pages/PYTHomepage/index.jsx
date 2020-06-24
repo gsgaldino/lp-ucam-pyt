@@ -9,6 +9,7 @@ import Teachers from '../components/Teachers';
 import FAQSection from '../components/FAQSection';
 import CTA from '../components/CTA';
 import AlgumaDuvidaSection from '../components/AlgumaDuvidaSection';
+import MobileMatriculese from '../components/MobileMatriculese';
 
 export default function PYTHomepage(){
   return (
@@ -22,6 +23,7 @@ export default function PYTHomepage(){
       <FAQSection />
       <CTA />
       <AlgumaDuvidaSection />
+      <MobileMatriculese />
     </div>
   )
 }

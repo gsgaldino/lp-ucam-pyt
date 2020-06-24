@@ -1,5 +1,7 @@
 import React from 'react';
 import LogosSection from '../LogosSection';
+import SocialSection from '../SocialSection';
+
 import { FaWhatsapp, FaMobileAlt } from 'react-icons/fa';
 
 import './responsive.css';
@@ -11,23 +13,24 @@ export default function AlgumaDuvidaSection(){
       <p>Fale conosco, vamos adorar te atender.</p>
 
       <div className="media">
-        <p className="item">
+        <div className="item">
           <FaWhatsapp
             color="var(--text-color)"
             size="40"
           />
           <p>+55 11 97121-1053</p>
-        </p>
+        </div>
 
-        <p className="item">
+        <div className="item">
           <FaMobileAlt
             color="var(--text-color)"
             size="40"
           />
           <p>+55 11 3375-0044</p>
-        </p>
+        </div>
       </div>
-
+      
+      <SocialSection />
       <LogosSection />
 
     </div>
