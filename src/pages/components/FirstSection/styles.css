@@ -1,9 +1,32 @@
-.First__Section a {
+.First__Section .form {
+  background: #fff;
+  padding: 20px 5px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,.2);
+}
+
+.First__Section .form p {
+  color: var(--text-color);
+  margin: 10px auto;
+}
+
+.First__Section .form span {
+  color: #ccc;
+  float: left;
+  margin-left: 10px;
+}
+
+.First__Section .form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #dcdce6;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.First__Section .form input[type="submit"]{
   background: var(--primary-color);
   color: #fff;
-  font-weight: 600;
-  padding: 15px 22px;
-  margin: 20px auto;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 221px;
+  margin-top: 20px;
 }

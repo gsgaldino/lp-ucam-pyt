@@ -1,8 +1,9 @@
 @media screen and (max-width: 800px){
   .First__Section {
     background-image: url('../../../assets/bg.jpg');
-    background-position: center;
-    padding: 120px 60px;
+    background-repeat: no-repeat;
+    background-position-y: -90px;
+    padding: 0px 60px;
     text-align: center;
   
     display: flex;
@@ -18,6 +19,22 @@
 
   .First__Section h1 {
     font-size: 40px;
+  }
+
+  .First__Section .left h3 {
+    margin-top: 100px;
+  }
+
+  .First__Section .left {
+    padding: 10px;
+  }
+
+  .First__Section .form {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    width: 100%;
+    background: rgba(255,255,255,.2);
   }
   
 }

@@ -11,6 +11,7 @@ import './responsive.css';
 export default function GoalsSection(){
   return (
     <div className="Goals__Section">
+      
       <div className="goals">
         <GoalContainer
           src={chargeImg}
