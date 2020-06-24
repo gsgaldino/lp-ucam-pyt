@@ -6,5 +6,9 @@
     text-align: center;
   }
 
+  .Modules__Section.open .content {
+    padding-top: 40px !important;
+  }
+
 
 }

@@ -1,0 +1,14 @@
+.CourseObjective__Container {
+  background: #F1F1F1;
+  padding: 40px 100px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.CourseObjective__Container h2 {
+  margin-bottom: 20px;
+}
+
+.CourseObjective__Container p {
+  font-size: 20px;
+}

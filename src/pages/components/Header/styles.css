@@ -1,0 +1,15 @@
+.Header {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.Header .Header__logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header .Header__logos img {
+  margin: 5px;
+}

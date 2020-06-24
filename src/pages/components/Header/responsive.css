@@ -1,9 +1,4 @@
 @media screen and (max-width: 800px){
-  .Header {
-    width: 100%;
-    padding: 20px;
-  }
-
   .Header .Header__logos {
     display: flex;
     justify-content: center;

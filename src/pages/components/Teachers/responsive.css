@@ -8,6 +8,7 @@
 
   .Teachers__Container .container {
     padding: 20px 0px;
+    width: 100% !important;
   }
 
   .Teachers__Container .container .teacher img {

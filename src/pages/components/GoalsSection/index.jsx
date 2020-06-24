@@ -6,6 +6,7 @@ import startImg from '../../../assets/start.jpg';
 import modalityImg from '../../../assets/modality.jpg';
 import investimentImg from '../../../assets/investiment.jpg';
 
+import './styles.css';
 import './responsive.css';
 
 export default function GoalsSection(){

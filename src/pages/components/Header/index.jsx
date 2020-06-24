@@ -3,6 +3,7 @@ import React from 'react';
 import aluraLogo from '../../../assets/alura-dark.png';
 import ucamLogo from '../../../assets/logo-ucam.png';
 
+import './styles.css';
 import './responsive.css';
 
 export default function Header(){
