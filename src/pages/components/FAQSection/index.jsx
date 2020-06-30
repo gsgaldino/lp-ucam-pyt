@@ -5,11 +5,11 @@ import './styles.css';
 import './responsive.css';
 
 
-export default function FAQSection() {
+export default function FAQSection({ certification }) {
   const [faqs, setFaqs] = useState([
     {
       question: '1. Qual certificação o aluno recebe ao final do curso?',
-      answer: 'O aluno receberá um certificado de participação a cada módulo concluído e um certificado de formação em Python ao final da programação completa.',
+      answer: `O aluno receberá um certificado de participação a cada módulo concluído e um certificado de formação em ${certification} ao final da programação completa.`,
       open: false
     },
     {

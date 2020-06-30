@@ -28,7 +28,7 @@
   }
 
   .First__Section .container .text {
-    padding: 10px 50px;
+    padding: 20px 70px;
     width: 100%;
   }
 
@@ -38,6 +38,7 @@
     border-radius: 10px;
     width: 80% ;
     background: #fff;
+    position: relative;
   }
   
 }

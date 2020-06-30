@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import aluraLogo from '../../../assets/alura-dark.png';
 import ucamLogo from '../../../assets/logo-ucam.png';
@@ -22,6 +23,10 @@ export default function Header(){
           title="Alura logo"
         />  
       </div>
+      <nav className="menu">
+        <Link to="/formacao-gerente-agil">Gerente ágil</Link><br></br>
+        <Link to="/">Digital e Agile Thinking</Link>
+      </nav>
     </div>
   )
 }

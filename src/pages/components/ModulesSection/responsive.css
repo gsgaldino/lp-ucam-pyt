@@ -6,6 +6,10 @@
     text-align: center;
   }
 
+  .Modules__Section ol ul li {
+    margin: 0px !important;
+  }
+
   .Modules__Section.open .content {
     padding-top: 40px !important;
   }

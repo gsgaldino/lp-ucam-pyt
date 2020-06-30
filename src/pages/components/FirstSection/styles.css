@@ -26,9 +26,15 @@
   padding-top: 50px;
 }
 
+.First__Section .container:last-child {
+  display: flex;
+  justify-content: center;
+}
+
 .First__Section .container .form {
-  width: 60%;
+  position: absolute;
   margin: 0 auto;
+  padding: 40px 20px;
 }
 
 /* Form styles */
@@ -71,6 +77,10 @@
   list-style: none;
   padding: 0;
   color: lightcoral;
+}
+
+.First__Section .form ul {
+  list-style: none;
 }
 
 .First__Section .form .hs-error-msg li {

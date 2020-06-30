@@ -3,11 +3,12 @@ import React from 'react';
 import './styles.css';
 import './responsive.css';
 
-export default function CTA(){
+export default function CTA({ href }){
   return (
     <div className="CTA__Container">
       <a 
-        href="https://cursos.alura.com.br/compra/candido-mendes-python-linguagem" className="button"
+        href={href} 
+        className="button"
         rel="noopener noreferrer"
         target="_blank"
       >

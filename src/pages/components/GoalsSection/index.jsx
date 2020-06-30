@@ -9,7 +9,7 @@ import investimentImg from '../../../assets/investiment.jpg';
 import './styles.css';
 import './responsive.css';
 
-export default function GoalsSection(){
+export default function GoalsSection({ cargaHoraria }){
   return (
     <div className="Goals__Section">
       
@@ -18,7 +18,7 @@ export default function GoalsSection(){
           src={chargeImg}
           title="Carga horária"
           firstText="Carga horária"
-          secondText="90 horas"
+          secondText={cargaHoraria}
         />
 
         <GoalContainer
@@ -40,7 +40,7 @@ export default function GoalsSection(){
           src={investimentImg}
           title="Investimento"
           firstText="Investimento"
-          secondText="R$: 900,00"
+          secondText="R$: 990,00"
         />
       </div>
     </div>
