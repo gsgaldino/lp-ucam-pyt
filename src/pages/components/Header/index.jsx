@@ -11,17 +11,19 @@ export default function Header(){
   return (
     <div className="Header">
       <div className="Header__logos">
-        <img
-          src={ucamLogo}
-          alt="UCAM Logo"
-          title="UCAM logo"
-        />
+        <div>
+          <img
+            src={ucamLogo}
+            alt="UCAM Logo"
+            title="UCAM logo"
+          />
 
-        <img 
-          src={aluraLogo}
-          alt="Alura logo"
-          title="Alura logo"
-        />  
+          <img 
+            src={aluraLogo}
+            alt="Alura logo"
+            title="Alura logo"
+          />  
+        </div>
       </div>
       <nav className="menu">
         <Link to="/formacao-gerente-agil">Gerente ágil</Link><br></br>

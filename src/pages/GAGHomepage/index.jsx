@@ -13,6 +13,9 @@ import AlgumaDuvidaSection from '../components/AlgumaDuvidaSection';
 import MobileMatriculese from '../components/MobileMatriculese';
 import Footer from '../components/Footer';
 
+import './styles.css';
+import './responsive.css';
+
 export default function GAGHomepage(){
   const firstSectionTitle = () => <p>Gerente<br></br>Ágil</p>
 
