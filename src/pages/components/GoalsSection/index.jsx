@@ -40,7 +40,7 @@ export default function GoalsSection({ cargaHoraria }){
           src={investimentImg}
           title="Investimento"
           firstText="Investimento"
-          secondText="R$: 990,00"
+          secondText="R$ 990,00"
         />
       </div>
     </div>

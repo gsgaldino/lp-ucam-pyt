@@ -8,7 +8,7 @@ export default function MobileMatriculese(){
     <div className="Mobile__Matriculese">
       <div className="container">
         <p><small>Investimento</small></p>
-        <p>R$: 900,00</p>
+        <p>R$ 900,00</p>
       </div>
       <div className="container">
         <a href="/">Matricule-se já!</a>

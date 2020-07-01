@@ -3,7 +3,7 @@ import React from 'react';
 import './styles.css';
 import './responsive.css';
 
-export default function FirstSection({ title, formId }){
+export default function FirstSection({ title, formId, linkMatricula }){
   const HubspotForm = React.lazy(() => import('react-hubspot-form'));
 
   return (
@@ -13,7 +13,7 @@ export default function FirstSection({ title, formId }){
           <h3>Formação</h3>
           <h1>{ title }</h1>
           <a 
-            href="https://cursos.alura.com.br/compra/candido-mendes-python-linguagem" 
+            href={ linkMatricula } 
             className="button"
             target="_blank"
             rel="noopener noreferrer"

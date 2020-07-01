@@ -176,6 +176,7 @@ export default function GAGHomepage(){
       <FirstSection 
         title={firstSectionTitle()}
         formId="8cbb93dd-332b-4d93-b17d-dabd9963c5f1"
+        linkMatricula="https://cursos.alura.com.br/compra/candido-mendes-gerente-agil"
       />
       <GoalsSection cargaHoraria="110 horas"/>
       
