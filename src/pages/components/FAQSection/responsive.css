@@ -2,6 +2,7 @@
 
   .container-faq-section {
     padding: 30px;
+    width: 100%;
   }
 
   .container-faq-section .faq-question {

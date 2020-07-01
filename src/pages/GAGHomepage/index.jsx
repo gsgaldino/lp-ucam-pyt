@@ -6,7 +6,7 @@ import GoalsSection from '../components/GoalsSection';
 import CourseObjective from '../components/CourseObjective';
 import ForWhoContainer from '../components/ForWhoContainer';
 import ModulesSection from '../components/ModulesSection';
-import Teachers from '../components/Teachers';
+/* import Teachers from '../components/Teachers'; */
 import FAQSection from '../components/FAQSection';
 import CTA from '../components/CTA';
 import AlgumaDuvidaSection from '../components/AlgumaDuvidaSection';
@@ -184,7 +184,7 @@ export default function GAGHomepage(){
       <ForWhoContainer text="Este curso é voltado para gestores e profissionais que já aplicam esta metodologia e desejam aperfeiçoar a técnica. Mas também é direcionado aos profissionais que querem aprender e entender melhor como funciona esta metodologia na prática, a fim de aumentar as possibilidades de ingressar nesta área."/>
 
       <ModulesSection content={modulesSectionContent()}/>
-      <Teachers />
+      {/* <Teachers /> */}
       <FAQSection certification="Gerente Ágil"/>
       <CTA href="https://cursos.alura.com.br/compra/candido-mendes-gerente-agil"/>
       <AlgumaDuvidaSection />

@@ -4,6 +4,7 @@
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     margin: 40px auto;
+    width: 100%;
   }
 
   .Teachers__Container .container {

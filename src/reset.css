@@ -3,6 +3,7 @@
 :root {
   --primary-color: #00C0E4;
   --text-color: #484848;
+  --section-width: 1140px;
 }
 
 *,

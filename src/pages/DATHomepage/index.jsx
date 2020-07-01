@@ -6,7 +6,7 @@ import GoalsSection from '../components/GoalsSection';
 import CourseObjective from '../components/CourseObjective';
 import ForWhoContainer from '../components/ForWhoContainer';
 import ModulesSection from '../components/ModulesSection';
-import Teachers from '../components/Teachers';
+/* import Teachers from '../components/Teachers'; */
 import FAQSection from '../components/FAQSection';
 import CTA from '../components/CTA';
 import AlgumaDuvidaSection from '../components/AlgumaDuvidaSection';
@@ -174,7 +174,7 @@ export default function DATHomepage(){
       <ForWhoContainer text="O curso é destinado para profissionais e gestores que desejam conhecer e implantar as metodologias ágeis voltadas a gestão, a fim de promover uma melhoria nos processos. E também para profissionais que já trabalham com esta metodologia e desejam se atualizar ou detalhar mais seus conhecimentos."/>
       
       <ModulesSection content={modulesSectionContent()}/>
-      <Teachers />
+      {/* <Teachers /> */}
       <FAQSection certification="Digital & Agile Thinking"/>
       <CTA href="https://cursos.alura.com.br/compra/candido-mendes-digital-e-agile-thinking"/>
       <AlgumaDuvidaSection />

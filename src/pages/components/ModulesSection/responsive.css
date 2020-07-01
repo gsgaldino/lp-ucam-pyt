@@ -1,4 +1,8 @@
 @media screen and (max-width: 800px){
+  .padding {
+    width: 100% !important;
+  }
+
   .Modules__Section {
     padding: 20px;
     width: 80%;

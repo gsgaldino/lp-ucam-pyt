@@ -4,6 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding: 90px 0px;
+  width: var(--section-width);
+  margin: 0 auto;
 }
 
 .First__Section .container {
